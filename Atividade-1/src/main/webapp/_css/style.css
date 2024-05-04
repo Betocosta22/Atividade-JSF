@@ -1,0 +1,46 @@
+/* Regra para especificar a codificação de caracteres */
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.dados-pessoais {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.dados-pessoais img.perfil-foto {
+    float: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.experiencia, .educacao, .voluntariado {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+a {
+    display: block;
+    margin-top: 5px;
+    color: blue;
+}
